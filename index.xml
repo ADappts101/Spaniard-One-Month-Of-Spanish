@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+	<pages>
+		<contents>
+			<pageTitle>Contents</pageTitle>
+			<list>
+				<item Name="Alphabets" PgNo.="7"/>
+				<item Name="Pronunciation" PgNo.="8"/>
+				<chapter ChNo.="1" PgNo.s="12-34">
+					<item Name="Useful Words" PgNo.="12"/>
+					<item Name="Useful Phrases and Idioms" PgNo.="16"/>
+					<item Name="Useful Expressions" PgNo.="21"/>
+					<item Name="Useful Verbs" PgNo.="25"/>
+					<item Name="Useful Adjectives" PgNo.="30"/>
+				</chapter>
+				<chapter ChNo.="2" PgNo.s="35-88">
+					<item Name="Family" PgNo.="35"/>
+					<item Name="Home" PgNo.="37"/>
+					<item Name="Body" PgNo.="40"/>
+					<item Name="Clothing" PgNo.="42"/>
+					<item Name="Town" PgNo.="44"/>
+					<item Name="Weather and World" PgNo.="48"/>
+					<item Name="Holidays and Travel" PgNo.="51"/>
+					<item Name="Countryside and Seaside" PgNo.="55"/>
+					<item Name="Food and Drink" PgNo.="58"/>
+					<item Name="Communications" PgNo.="64"/>
+					<item Name="Thoughts and Feeling" PgNo.="67"/>
+					<item Name="Work" PgNo.="71"/>
+					<item Name="Sports and Pastimes" PgNo.="75"/>
+					<item Name="Animals and Birds" PgNo.="78"/>
+					<item Name="Numbers" PgNo.="81"/>
+					<item Name="Time, Dates" PgNo.="83"/>
+				</chapter>
+				<chapter ChNo.="3" PgNo.s="89-151">
+					<item Name="Grammar"/>
+				</chapter>
+				<chapter ChNo.="4" PgNo.s="152-165">
+					<item Name="Conversation"/>
+				</chapter>
+				<chapter ChNo.="5" PgNo.s="166-176">
+					<item Name="Translation"/>
+				</chapter>
+				<chapter ChNo.="6" PgNo.s="177-182">
+					<item Name="Vocabulary"/>
+				</chapter>
+			</list>
+		</contents>
+		<alphabets>
+			<headings>
+				<heading NameValue="Alphabets"/>
+				<subheading NameValue="The Spanish Alphabets"/>
+				<text>This consists of 29 letters, of which K and W are found only in words taken from other languages. Note the letters CH, LL, and N: in Spanish dictionaries, words beginning with any one of these will be found after C, L, and N. Below, we give the 'name' of each letter written according to our system of imitated pronunciation (explained on page 10).</text>
+			</headings>
+		</alphabets>
+	</pages>
