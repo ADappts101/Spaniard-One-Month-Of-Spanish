@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (this.readyState == 4 && this.status == 200) {
             var parser = new DOMParser();
             var xmlDoc = parser.parseFromString(this.responseText, "text/xml");
-            document.getElementById("demo").innerHTML = xmlDoc.getElementsByTagName("text")[0].childNodes[0].nodeValue;
+            var text = xmlDoc.getElementsByTagName("text");
+            document.getElementById("demo").innerHTML = text[0:text.length].childNodes[0].nodeValue;
         }
     };
     xhttp.open("GET", "index.xml", true);
