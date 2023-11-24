@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
             class TextElem {
                 constructor() {
-                    this.elem = addNewChild(body, "p", `p${counter1}`);
                     counter1 += 1;
+                    this.elem = addNewChild(body, "p", `p${counter1}`);
                 }
             }
 
