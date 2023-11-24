@@ -16,8 +16,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
             counter1 = 0;
             counter2 = 1;
-            var textElem = adNeCh("body", "p", `p${counter2+=1}`);
-            document.getElementById(`p${counter2}`).innerHTML = text[counter1].childNodes[0].nodeValue;
+            class TextElem() {
+                constructor(elem){
+                    this.elem = adNeCh("body", "p", `p${counter1+=1}`);
+                    return this.elem;
+                }
+            }
+            document.getElementById(`p${counter1}`).innerHTML = text[counter1].childNodes[0].nodeValue;
         }
     };
     xhttp.open("GET", "index.xml", true);
