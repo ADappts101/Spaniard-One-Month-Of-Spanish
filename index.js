@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
             counter2 = 1;
             class TextElem() {
                 constructor(elem){
-                    this.elem = adNeCh("body", "p", `p${counter1+=1}`);
+                    this.elem = adNeCh(body, "p", `p${counter1+=1}`);
                     return this.elem;
                 }
             }
