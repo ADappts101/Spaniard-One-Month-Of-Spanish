@@ -15,18 +15,16 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
             var counter1 = 0;
+            var counter2 = 1;
 
             class TextElem {
                 constructor() {
-                    this.elem = addNewChild(body, "p", `p${counter1 += 1}`);
+                    this.elem = addNewChild(body, "p", `p${counter1+=1}`);
+                    counter1 += 1;
                 }
             }
 
-            function newClass(className, varName) {
-                window[varName] = new window[className]();
-            }
-
-            newClass("TextElem", "text");
+            var text = new TextElem();
             text.elem.innerHTML = textTag[counter1].childNodes[0].nodeValue;
         }
     };
