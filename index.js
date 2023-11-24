@@ -15,12 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
             var counter1 = 0;
-            var counter2 = 1;
 
             class TextElem {
                 constructor() {
-                    counter1 += 1;
                     this.elem = addNewChild(body, "p", `p${counter1}`);
+                    counter1 += 1;
                 }
             }
 
