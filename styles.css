@@ -1,8 +1,7 @@
 body {
   font-family: ubuntu;
   background-color: #de993a;
-  margin: 100px 50px;
-  border-radius: calc(100% - 25px);
+  border-radius: calc(100% - 50px);
 }
 
 .chItem {
@@ -14,4 +13,5 @@ body {
   position: absolute;
   height: calc(100% - 80px);
   width: calc(100% - 30px);
+  margin: 100px 50px;
 }
