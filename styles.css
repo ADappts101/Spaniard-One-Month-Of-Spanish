@@ -2,6 +2,7 @@ body {
   font-family: ubuntu;
   background-color: #de993a;
   border-radius: calc(100% - 50px);
+  margin: 50px 25px;
 }
 
 .chItem {
