@@ -2,7 +2,7 @@ body {
   font-family: ubuntu;
   background-color: #de993a;
   margin: 100px 50px;
-  border-radius: 100px;
+  border-radius: calc(100% - 25px);
 }
 
 .chItem {
@@ -12,4 +12,6 @@ body {
 .mainBorderOfTheWholeThing {
   border: 10px solid #8a5f24;
   position: absolute;
+  height: calc(100% - 80px);
+  width: calc(100% - 30px);
 }
