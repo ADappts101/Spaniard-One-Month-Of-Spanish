@@ -1,8 +1,9 @@
 body {
-  background: #de993a;
-  margin: 100 50;
+  font-family: ubuntu;
+  background-color: #de993a;
+  margin: 100px 50px;
 }
 
 .chItem {
-  
+  font-size: 1.2em;
 }
