@@ -2,9 +2,14 @@ body {
   font-family: ubuntu;
   background-color: #de993a;
   margin: 100px 50px;
-  border: 10px solid #8a5f24;
+  border-radius: 100px;
 }
 
 .chItem {
   font-size: 88.9583333333%;
+}
+
+.mainBorderOfTheWholeThing {
+  border: 10px solid #8a5f24;
+  position: absolute;
 }
