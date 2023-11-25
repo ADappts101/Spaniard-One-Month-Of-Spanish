@@ -8,9 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
             var chapterTag = xmlDoc.getElementsByTagName("chapter");
             var body = document.body;
 
-            function addNewChild(parent, child, id) {
+            function addNewChild(parent, child, id, classValue) {
                 var childElem = document.createElement(child);
                 childElem.setAttribute("id", id);
+                childElem.setAttribute("class", classValue);
                 parent.appendChild(childElem);
                 return childElem;
             }
@@ -20,13 +21,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
             class TextElem {
                 constructor() {
-                    this.elem = addNewChild(body, "p", `p${counter2++}`);
+                    this.elem = addNewChild(body, "p", `p${counter2++}`, "text");
                 }
             }
 
             class ChapterElem {
                 constructor() {
-                    this.elem = addNewChild(body, "div", `chapter${counter2++}`);
+                    this.elem = addNewChild(body, "div", `chapter${counter2++}`, "chapter");
                 }
             }
 
@@ -44,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     let itemChNo = chapterTag[i].getAttribute("ChNo.");
 
                     // Do something with the attributes, for example, create a new paragraph
-                    let itemParagraph = addNewChild(chapter.elem, "p", `item${counter2++}`);
+                    let itemParagraph = addNewChild(chapter.elem, "p", `item${counter2++}`, "chItem");
                     itemParagraph.innerHTML = `${itemChNo}: ${itemName} - Page ${itemPageNo}`;
                 }
             }
