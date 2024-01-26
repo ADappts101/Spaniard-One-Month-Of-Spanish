@@ -10,7 +10,7 @@ body {
 }
 
 .mainBorderOfTheWholeThing {
-  border: 10px solid #8a5f24;
+  border: -10px solid #8a5f24;
   position: absolute;
   height: calc(100% - 60px);
   width: calc(100% - 10px);
