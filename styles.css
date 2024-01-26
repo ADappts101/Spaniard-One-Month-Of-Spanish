@@ -2,16 +2,16 @@ body {
   font-family: ubuntu;
   background-color: #de993a;
   border-radius: calc(100% - 50px);
-  margin: 110px 60px;
+  margin: 100px 50px;
 }
 
 .chItem {
-  font-size: 88.9583333333%;
+  font-size: 79%;
 }
 
 .mainBorderOfTheWholeThing {
   border: 10px solid #8a5f24;
   position: absolute;
-  height: calc(100% - 50px);
-  width: calc(100% - 5px);
+  height: calc(100% - 30px);
+  width: 100%;
 }
